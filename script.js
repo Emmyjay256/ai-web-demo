@@ -2,7 +2,7 @@ async function sendData() {
   const input = document.getElementById("userInput").value;
 
   // Replace with your Firebase function URL later
-  const url = "https://us-central1-YOUR_PROJECT_ID.cloudfunctions.net/getPrediction";
+  const url = "https://predictstar-43yyvuwo6a-uc.a.run.app";
 
   try {
     const response = await fetch(url, {
